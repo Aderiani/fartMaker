@@ -1,0 +1,4 @@
+﻿  Main.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+Main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Fartmaker23.vcxproj -> D:\Projects\Personal\Learning Microsoft Foundation Class MFC\Fartmaker23\Debug\Fartmaker23.exe

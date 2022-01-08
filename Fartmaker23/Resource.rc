@@ -1,0 +1,129 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_FartMaker DIALOGEX 0, 0, 517, 264
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Fart Maker"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Close",IDCANCEL,460,243,50,14
+    EDITTEXT        IDC_EDIT_FartName,14,28,125,25,ES_AUTOHSCROLL
+    LTEXT           "The fart name:",IDC_STATIC,16,14,80,10
+    CONTROL         "",IDC_SLIDER_Wetness,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,42,109,239,21
+    LTEXT           "Weak",IDC_STATIC,19,187,19,8
+    EDITTEXT        IDC_EDIT2,366,175,125,33,ES_AUTOHSCROLL
+    LTEXT           "Send the fart to a friend:",IDC_STATIC,366,160,125,9
+    PUSHBUTTON      "Send",IDC_BUTTON1,439,211,50,14
+    LTEXT           "Dry",IDC_STATIC,286,112,12,8
+    LTEXT           "Wet",IDC_STATIC,20,111,14,8
+    CONTROL         "",IDC_SLIDER_Age,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,42,147,239,21
+    LTEXT           "Age:",IDC_STATIC,19,133,16,8
+    LTEXT           "Junior",IDC_STATIC,19,149,20,8
+    LTEXT           "Senior",IDC_STATIC,284,150,21,8
+    CONTROL         "",IDC_SLIDERPower,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,42,185,239,21
+    LTEXT           "Power (hp):",IDC_STATIC,17,171,39,8
+    LTEXT           "Powerfull",IDC_STATIC,283,188,30,8
+    LTEXT           "Wetness:",IDC_STATIC,20,98,32,8
+    CONTROL         "Happy",IDC_RADIO_happy,"Button",BS_AUTORADIOBUTTON | WS_GROUP,162,35,37,10
+    CONTROL         "Sad",IDC_RADIO_sad,"Button",BS_AUTORADIOBUTTON,213,35,28,10
+    CONTROL         "Agressive",IDC_RADIO_aggr,"Button",BS_AUTORADIOBUTTON,259,35,47,10
+    CONTROL         "Tired",IDC_RADIO_tiered,"Button",BS_AUTORADIOBUTTON,325,36,32,10
+    CONTROL         "Under pressure",IDC_RADIO_pres,"Button",BS_AUTORADIOBUTTON,370,36,65,10
+    GROUPBOX        "Mood",IDC_STATIC,153,15,282,45
+    PUSHBUTTON      "Generate the fart",IDC_BUTTON_Generate,33,222,89,19,0,WS_EX_DLGMODALFRAME
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_FartMaker, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 510
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 257
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_FartMaker AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
